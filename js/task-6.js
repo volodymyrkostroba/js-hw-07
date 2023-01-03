@@ -5,5 +5,5 @@ inputRef.addEventListener('blur', chengeBorderHendler);
 function chengeBorderHendler(event){
   event.target.value.length === Number(inputRef.dataset.length)?
     inputRef.setAttribute('class','valid'):
-    inputRef.setAttribute('class','invalid');
-}
+    inputRef.setAttributіe('class','invalid');
+} 
